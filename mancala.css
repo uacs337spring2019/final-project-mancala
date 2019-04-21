@@ -1,0 +1,75 @@
+h1, h3 {
+	margin: auto;
+	background-color: #E9EB9E;
+	box-shadow: 2px 2px gray;
+}
+
+h1 {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+h3 {
+	margin-bottom: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+body {
+	text-align: center;
+	background-color: #49475B;
+}
+
+fieldset, h1, h3 {
+	width: 30%;
+}
+
+fieldset {
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+input, button {
+	margin-top: 10px;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	border-radius: 50px;
+	margin: auto;
+}
+
+legend {
+	text-align: left;
+}
+
+.hidden {
+	display: none;
+}
+
+canvas {
+	background-color: #ACC196;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+td, th, table {
+	border: 2px solid black;
+}
+
+td {
+	color: red;
+}
+
+.shown {
+	display: block;
+}
+
