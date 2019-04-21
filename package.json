@@ -2,9 +2,6 @@
   "name": "mancala_project",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "10.15.3"
-  },
   "main": "mancala_service.js",
   "dependencies": {
     "client-sessions": "^0.8.0",
@@ -23,5 +20,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gavin Magee",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "10.15.3"
+  }
 }
