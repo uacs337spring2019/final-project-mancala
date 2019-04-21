@@ -97,7 +97,7 @@
 
 	function readyUp(){
 		//add user to readied players table
-		let url = "http://localhost:3000?readyUp=1&username=" + username + "&playing=0";
+		let url = "http://gavin-magee-mancala-project.herokuapp.com:" + process.env.PORT +"?readyUp=1&username=" + username + "&playing=0";
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
@@ -146,7 +146,7 @@
 	function movePiece(){
 		if (currCircle > 0 && currCircle < 7 && gameData.playerNo == 1 && gameData.myTurn && gameData.currBoard[currCircle] != 0||
 			currCircle > 7 && currCircle <= 13 && gameData.playerNo == 2 && gameData.myTurn && gameData.currBoard[currCircle] != 0){
-			let url = "http://localhost:3000?readyUp=0&playing=1&boardId=" + gameData.boardNo + "&index=" + currCircle;
+			let url = "http://gavin-magee-mancala-project.herokuapp.com:" + process.env.PORT + "?readyUp=0&playing=1&boardId=" + gameData.boardNo + "&index=" + currCircle;
 			fetch(url)
 				.then(checkStatus)
 				.then(function(responseText){
@@ -173,7 +173,7 @@
 	}
 
 	function getGameData(){
-		let url = "http://localhost:3000?readyUp=0&playing=2&boardId=" + gameData.boardNo;
+		let url = "http://gavin-magee-mancala-project.herokuapp.com:" + process.env.PORT + "?readyUp=0&playing=2&boardId=" + gameData.boardNo;
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
