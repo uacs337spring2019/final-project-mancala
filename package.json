@@ -1,9 +1,6 @@
 {
   "name": "mancala_project",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.15.3"
-  },
   "description": "",
   "main": "mancala_service.js",
   "dependencies": {
@@ -18,7 +15,7 @@
 },
   "keywords": [
     "mancala", "node"
-  ]
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
