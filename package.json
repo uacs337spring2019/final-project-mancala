@@ -1,25 +1,27 @@
 {
-  "name": "mancala_project",
+  "name": "js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Files for mancala",
   "main": "mancala_service.js",
-  "dependencies": {
-    "client-sessions": "^0.8.0",
-    "express": "^4.16.4",
-    "fs": "^0.0.1-security"
-  },
-  "devDependencies": {},
-  "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
-  "keywords": [
-    "mancala", "node"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uacs337spring2019/final-project-mancala.git"
+  },
   "author": "Gavin Magee",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-mancala.git/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-mancala/index.html",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.5.6",
+    "express": "^4.16.4",
+    "node": "^11.13.0"
+  },
   "engines": {
     "node": "10.15.3"
   }
