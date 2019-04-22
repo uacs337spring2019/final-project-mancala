@@ -1,2 +1,0 @@
-{"id":"0","board":[25,0,0,0,0,0,0,22,0,0,0,0,1,0],"currIsPlayer1":true}
-{"id":"1","board":[2,5,5,4,4,4,0,1,5,5,1,0,6,6],"currIsPlayer1":false}
