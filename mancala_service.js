@@ -23,7 +23,6 @@ package.json
 */
 
 (function(){
-	console.log(process.env.PORT);
 	"use strict";
 
 	const express = require("express");
