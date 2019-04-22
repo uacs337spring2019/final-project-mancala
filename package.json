@@ -4,6 +4,7 @@
   "description": "Files for mancala",
   "main": "mancala_service.js",
   "scripts": {
+    "start" : "node mancala_service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
