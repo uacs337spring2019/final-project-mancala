@@ -1,7 +1,26 @@
+/*
+Gavin Magee
+4/19/19
+CSc 337
+
+This file holds all styling information
+for the mancala.html code for the final
+mancala project.  All functionality is handled
+in the mancala.js file where page contents
+are held in mancala.html.
+
+File Dependencies:
+mancala.js
+mancala_service.js
+mancala.html
+boards.txt
+app.json
+package.json
+*/
 h1, h3 {
-	margin: auto;
 	background-color: #E9EB9E;
 	box-shadow: 2px 2px gray;
+	margin: auto;
 }
 
 h1 {
@@ -10,14 +29,14 @@ h1 {
 }
 
 h3 {
-	margin-bottom: 20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	margin-bottom: 20px;
 }
 
 body {
-	text-align: center;
 	background-color: #49475B;
+	text-align: center;
 }
 
 fieldset, h1, h3 {
@@ -25,26 +44,39 @@ fieldset, h1, h3 {
 }
 
 fieldset {
-	margin-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
 	border-radius: 20px;
+	margin-bottom: 30px;
 }
 
-input, button {
+#entryscreen label {
+	font-family: cursive, sans-serif;
+}
+
+#winscreen h2 {
+	color: green;
+	font-family: "Comic Sans MS", serif;
+}
+
+button, input {
 	margin-top: 10px;
-}
-
-img {
-	width: 50%;
-	height: 50%;
-	display: block;
-	border-radius: 50px;
-	margin: auto;
 }
 
 legend {
 	text-align: left;
+}
+
+#mancboard, #termboard {
+	border-radius: 15px;
+	height: 40%;
+	width: 40%;
+}
+
+#mancboard {
+	float: right;
+}
+
+#termboard {
+	float: left;
 }
 
 .hidden {
@@ -56,20 +88,22 @@ canvas {
 }
 
 table {
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 20px;
 }
 
-td, th, table {
+table, td, th {
 	border: 2px solid black;
 }
 
-td {
+#entryscreen label, td {
 	color: red;
 }
 
-.shown {
+#mancboard, .shown, #termboard {
 	display: block;
 }
 
+fieldset, table {
+	margin-left: auto;
+	margin-right: auto;
+}

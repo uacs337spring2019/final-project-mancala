@@ -1,0 +1,8 @@
+{"playersReady":[]}
+7
+0
+{"id":"0","board":[20,0,1,0,1,1,0,25,0,0,0,0,0,0],"currIsPlayer1":false}
+{"id":"1","board":[1,4,4,4,4,4,4,0,4,4,0,5,5,5],"currIsPlayer1":false}
+{"id":"3","board":[2,5,5,5,5,4,4,0,4,4,0,5,5,0],"currIsPlayer1":true}
+{"id":"4","board":[27,0,0,0,0,1,0,20,0,0,0,0,0,0],"currIsPlayer1":false}
+{"id":"5","board":[21,0,0,0,0,0,0,18,0,1,0,1,7,0],"currIsPlayer1":true}
