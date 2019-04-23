@@ -2,9 +2,9 @@
   "name": "js",
   "version": "1.0.0",
   "description": "Files for mancala",
-  "main": "mancala_service.js",
+  "main": "index.js",
   "scripts": {
-    "start" : "node mancala_service.js",
+    "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/uacs337spring2019/final-project-mancala.git/issues"
   },
-  "homepage": "https://github.com/uacs337spring2019/final-project-mancala/index.html",
+  "homepage": "https://github.com/uacs337spring2019/final-project-mancala/mancala.html",
   "dependencies": {
     "fs": "^0.0.1-security",
     "ejs": "^2.5.6",
