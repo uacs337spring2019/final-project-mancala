@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/uacs337spring2019/final-project-mancala.git/issues"
   },
-  "homepage": "https://github.com/uacs337spring2019/final-project-mancala/mancala.html",
+  "homepage": "https://github.com/uacs337spring2019/final-project-mancala/index.html",
   "dependencies": {
     "fs": "^0.0.1-security",
     "ejs": "^2.5.6",
