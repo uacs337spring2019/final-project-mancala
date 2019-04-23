@@ -2,7 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "description": "Files for mancala",
-  "main": "mancala_service.js",
+  "main": "index.html",
   "scripts": {
     "start" : "node mancala_service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
