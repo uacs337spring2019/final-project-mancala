@@ -17,7 +17,7 @@
     "url": "https://github.com/uacs337spring2019/final-project-mancala.git/issues"
   },
   "homepage": "https://github.com/uacs337spring2019/final-project-mancala/index.html",
-  "dependencies":
+  "dependencies": {
     "fs": "^0.0.1-security",
     "ejs": "^2.5.6",
     "express": "^4.16.4",
