@@ -172,6 +172,7 @@ package.json
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
+				console.log(responseText);
 				if (responseText != "wait"){
 					//start game
 					gameData = JSON.parse(responseText);
@@ -237,6 +238,7 @@ package.json
 			fetch(url)
 				.then(checkStatus)
 				.then(function(responseText){
+					console.log(responseText);
 					let newData = JSON.parse(responseText);
 					gameData.currBoard = newData.board;
 					if (newData.currIsPlayer1){
@@ -436,6 +438,7 @@ package.json
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
+				console.log(responseText);
 				if (responseText != "nothing new"){
 					let newData = JSON.parse(responseText);
 					gameData.currBoard = newData.board;
@@ -569,6 +572,7 @@ package.json
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
+				console.log(responseText);
 				let readyData = JSON.parse(responseText);
 				if (readyData.readyPlayers.length == 1){
 					document.getElementById("p1").innerHTML = readyData.readyPlayers[0];
