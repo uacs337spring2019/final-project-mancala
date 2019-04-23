@@ -168,7 +168,7 @@ package.json
 	*/
 	function readyUp(){
 		//add user to readied players table
-		let url = "https://gavin-mancala3.herokuapp.com?readyUp=1&username=" + username + "&playing=0";
+		let url = "https://gavin-mancala4.herokuapp.com?readyUp=1&username=" + username + "&playing=0";
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
@@ -232,7 +232,7 @@ package.json
 				gameData.myTurn && gameData.currBoard[currCircle] != 0||
 				currCircle > 7 && currCircle <= 13 && gameData.playerNo == 2
 				&& gameData.myTurn && gameData.currBoard[currCircle] != 0){
-			let url = "https://gavin-mancala3.herokuapp.com?readyUp=0&playing=1&boardId=" +
+			let url = "https://gavin-mancala4.herokuapp.com?readyUp=0&playing=1&boardId=" +
 					gameData.boardNo + "&index=" + currCircle;
 			fetch(url)
 				.then(checkStatus)
@@ -432,7 +432,7 @@ package.json
 	gloriously updated board.
 	*/
 	function getGameData(){
-		let url = "https://gavin-mancala3.herokuapp.com?readyUp=0&playing=2&boardId=" + gameData.boardNo;
+		let url = "https://gavin-mancala4.herokuapp.com?readyUp=0&playing=2&boardId=" + gameData.boardNo;
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
@@ -565,7 +565,7 @@ package.json
 	if you ready up second.
 	*/
 	function getReadiedPlayers(){
-		let url = "https://gavin-mancala3.herokuapp.com?getReadyPlayers=1";
+		let url = "https://gavin-mancala4.herokuapp.com?getReadyPlayers=1";
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText){
